@@ -1,0 +1,39 @@
+.image-gallery {
+display: flex;
+flex-wrap: wrap;
+gap: 16px;
+justify-content: center;
+padding: 16px;
+}
+
+.image-item {
+  flex: 1 0 21%; 
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 8px
+  overflow hidden;
+  transition: transform 0.2s;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-item:hover {
+  transform: scale(1.05);
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
